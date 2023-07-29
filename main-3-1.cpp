@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+bool is_fanarray(int array[], int n);
 int main() {
     const int n = 5;
     int array[n] = {1, 2, 5, 2, 1};
