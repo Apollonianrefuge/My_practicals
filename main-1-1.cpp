@@ -4,7 +4,7 @@
 Person *createPersonArray(int n);
 
 int main() {
-    int n = 3;
+    int n = 5;
     Person *persons = createPersonArray(n);
 
     for(int i = 0; i < n; i++) {
