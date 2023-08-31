@@ -1,7 +1,7 @@
 #include <iostream>
 #include <ctime>
 #include "Vehicle.h"
-#include "Parkinglot.h"
+#include "ParkingLot.h"
 #include "Car.h"
 #include "Bus.h"
 #include "Motorbike.h"
@@ -9,7 +9,7 @@
 using namespace std;
 
 int main() {
-    Parkinglot lot(10);  // Parking lot with a capacity of 10
+    ParkingLot lot(10);  // Parking lot with a capacity of 10
     int choice;
     int id = 1;
 
