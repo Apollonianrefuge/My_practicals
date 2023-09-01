@@ -19,7 +19,7 @@ int ParkingLot::getCount() {
 
 bool ParkingLot::parkVehicle(Vehicle* vehicle) {
     if(count >= maxCapacity) {
-        std::cout << "The lot is full." << std::endl;
+        std::cout << "The lot is full" << std::endl;
         return false;
     }
     vehicles[count++] = vehicle;
@@ -34,7 +34,7 @@ void ParkingLot::unparkVehicle(int id) {
             return;
         }
     }
-    std::cout << "Vehicle is not in the lot." << std::endl;
+    std::cout << "Vehicle not in the lot" << std::endl;
 }
 
 int ParkingLot::countOverstayingVehicles(int maxParkingDuration) {
